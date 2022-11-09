@@ -28,3 +28,17 @@ for l in V: #no character in variable "v" thats why else part printed.
   print(l)
 else:
   print("Beast")
+  
+ #Nested Loop 
+for x in range(2):
+  print(f"Outer loop {x}")
+  for z in range(3):
+    print(f"Inner loop{z}")
+    
+ #Nested loops 
+  for x in range(2):
+  print(f"Outer loop {x}")
+  for z in range(3):
+    print(f"Inner loop {z}")
+    for y in range(5):
+      print(f"In Inner loop {y}")
